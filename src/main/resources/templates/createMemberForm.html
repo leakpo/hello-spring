@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<div class="container">
+    <form action="#" th:action="@{/members/new}" th:object="${memberForm}" method="post">
+        <input type="text" th:field="*{name}" />
+        <button type="submit">Submit</button>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
