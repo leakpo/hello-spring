@@ -21,4 +21,9 @@ public class HomeFirstController {
     public String second() {
         return "first";
     }
+
+    @GetMapping("third")
+    public String memberAddForm2(){
+        return "createMemberForm";
+    }
 }
