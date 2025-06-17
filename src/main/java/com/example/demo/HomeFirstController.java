@@ -17,4 +17,8 @@ public class HomeFirstController {
         return "first";
     }
 
+    @GetMapping("second")
+    public String second() {
+        return "first";
+    }
 }
